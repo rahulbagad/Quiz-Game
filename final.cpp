@@ -267,7 +267,8 @@ void lifeline(char ch)
         }
     }
 
-    cout<<"\nAap konse lifeline istmal karna chahenge ";        cin>>opt;
+    	cout<<"\nAap konsa lifeline istemal karna chahenge ";       
+	cin>>opt;
         switch(opt)
         {
             case 0:
@@ -300,7 +301,7 @@ void balance(int qno,int flg)
     if(flg==0)
     {
     	system("clear");
-        cout<<"\n\nAfsos ke sat kehna pad raha hai ke apne galat gawab deya hai.\n";
+        cout<<"\n\nAfsos ke sath kehna pad raha hai ke apne galat jawab diya hai.\n";
         if(qno>12)
             cout<<"Amount Received: "<<money[12]<<"\n";
         else
@@ -320,16 +321,16 @@ void balance(int qno,int flg)
     {
         if(flg==-1)
         {
-            cout<<"You have QUIT and ";
-            cout<<"Aapko milte hai: "<<money[qno-1]<<"\n";
-            return ;
+            	cout<<"You have QUIT and ";
+            	cout<<"Aapko milte hai: "<<money[qno-1]<<"\n";
+            	return ;
         }
         else
         {
         	system("clear");
-        	cout<<"\nApaka jawab bilkoul sahi hai.\nBhadae ho\n";
-            cout<<"Aapko milte hai: "<<money[qno]<<"\n";
-            cout<<"Agla Prashna Ye raha apke samne\n";
+        	cout<<"\nApaka jawab bilkul sahi hai.\nBadhai ho\n";
+            	cout<<"Aapko milte hai: "<<money[qno]<<"\n";
+            	cout<<"Agla Prashn Ye raha apke samne\n";
 		usleep(5000000);
 		
        }
